@@ -14,7 +14,7 @@ import numpy as np
 #    - [array] output2: 1D array of size nbClasses containing the class Mean Average Precisions
 #######################################################################################################################
 
-def computeMeanAveragePrecision(labels,softmaxEstimations):
+def computeMeanAveragePrecision(labels, softmaxEstimations):
 
     nbExamples , nbClasses = softmaxEstimations.shape
 

@@ -1,4 +1,4 @@
-def mapCodeToActivity(activityCode):
+def map_code_to_activity(activity_code):
     """
     Maps activity codes to their corresponding activity names.
     """
@@ -60,4 +60,4 @@ def mapCodeToActivity(activityCode):
         54: "Write"
     }
 
-    return activity_map.get(activityCode, "Unknown Activity")
+    return activity_map.get(activity_code, "Unknown Activity")
